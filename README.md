@@ -16,7 +16,7 @@ docker run --detach \
   --env UPSTREAM=backend:8080 \
   --publish 80:80 \
   --publish 443:443 \
-  smashwilson/lets-nginx
+  fserafini/lets-nginx
 ```
 
 Issues certificates from [letsencrypt](https://letsencrypt.org/), installs them in [nginx](https://www.nginx.com/), and schedules a cron job to reissue them monthly.
